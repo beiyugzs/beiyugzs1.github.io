@@ -100,12 +100,12 @@ Hexo+github搭建博客、无需服务器 |
       </div>
       <div id="imgs" class="pjax">
         <ul>
-          <li class="item" data-background-image="https://tva2.sinaimg.cn/large/6833939bly1gipet8c1a2j20zk0m8kct.jpg"></li>
-          <li class="item" data-background-image="https://tva2.sinaimg.cn/large/6833939bly1giciszlczyj20zk0m816d.jpg"></li>
-          <li class="item" data-background-image="https://tva2.sinaimg.cn/large/6833939bly1gicli9lfebj20zk0m84qp.jpg"></li>
-          <li class="item" data-background-image="https://tva2.sinaimg.cn/large/6833939bly1gicitf0kl1j20zk0m87fe.jpg"></li>
-          <li class="item" data-background-image="https://tva2.sinaimg.cn/large/6833939bly1giph4wqtg4j20zk0m8x6p.jpg"></li>
-          <li class="item" data-background-image="https://tva2.sinaimg.cn/large/6833939bly1gipeyvx1d4j20zk0m8hdt.jpg"></li>
+          <li class="item" data-background-image="https://tva4.sinaimg.cn/large/6833939bly1giph4lm9i7j20zk0m84qp.jpg"></li>
+          <li class="item" data-background-image="https://tva4.sinaimg.cn/large/6833939bly1giclxfdlttj20zk0m8npd.jpg"></li>
+          <li class="item" data-background-image="https://tva4.sinaimg.cn/large/6833939bly1giclflwv2aj20zk0m84qp.jpg"></li>
+          <li class="item" data-background-image="https://tva4.sinaimg.cn/large/6833939bly1gipewr8iypj20zk0m8b29.jpg"></li>
+          <li class="item" data-background-image="https://tva4.sinaimg.cn/large/6833939bly1gipeuibk9fj20zk0m8ay2.jpg"></li>
+          <li class="item" data-background-image="https://tva4.sinaimg.cn/large/6833939bly1gipewf5l51j20zk0m8b29.jpg"></li>
         </ul>
       </div>
     </header>
@@ -155,7 +155,15 @@ Hexo+github搭建博客、无需服务器 |
 <li>在任意磁盘创建一个文件夹命名为”blog”或者其他名字也可以，推荐使用blog</li>
 </ul>
 <ol>
-<li>之后按顺序输入指令回车<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">初始化hexo</span><br><span class="line"><span class="number">1.</span> hexo init</span><br><span class="line">安装依赖文件</span><br><span class="line"><span class="number">2.</span> npm install</span><br><span class="line"><span class="number">3.</span> hexo s</span><br></pre></td></tr></table></figure>
+<li><p>之后按顺序输入指令回车</p>
+<blockquote>
+<p>初始化hexo</p>
+<ol>
+<li>hexo init<br>安装依赖文件</li>
+<li>npm install</li>
+<li>hexo s</li>
+</ol>
+</blockquote>
 <ul>
 <li>输入第三个指令之后会出现下图中的<font face="宋体" color="red" >“localhost:4000”<br><img data-src="https://s1.ax1x.com/2020/10/10/0sihtI.png" alt="1"></li>
 <li>这时候给了一个本地访问地址，目前只有你可以访问，想要其他人也能访问<br>就需要上传到<strong>github</strong>，进行一个远端访问</li>
@@ -179,7 +187,9 @@ Hexo+github搭建博客、无需服务器 |
 </ul>
 <h5 id="安装deployer插件"><a href="#安装deployer插件" class="headerlink" title="安装deployer插件"></a>安装deployer插件</h5><ul>
 <li><p>输入指令</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>npm install hexo-deployer-git –save</p>
+</blockquote>
 <h5 id="修改配置文件"><a href="#修改配置文件" class="headerlink" title="修改配置文件"></a>修改配置文件</h5></li>
 <li><p>复制上面划红线链接 </p>
 </li>
@@ -194,7 +204,21 @@ Hexo+github搭建博客、无需服务器 |
 <p>图一： <img data-src="https://s1.ax1x.com/2020/10/10/0skDsO.png" alt="6"></p>
 <p>图二： <img data-src="https://s1.ax1x.com/2020/10/10/0skcod.png" alt="7"></p>
 <h5 id="推送至Guhub"><a href="#推送至Guhub" class="headerlink" title="推送至Guhub"></a>推送至Guhub</h5><ul>
-<li>输入以下提示指令，更新GitHub登录账号<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">git config --<span class="keyword">global</span> user.eamil <span class="string">&quot;你注册GitHub用的邮箱&quot;</span></span><br><span class="line"></span><br><span class="line">git config --gLObal user.namw <span class="string">&quot;你注册GitHub用的名称&quot;</span></span><br><span class="line">``` </span><br><span class="line">- 输入下面指令进行推送</span><br><span class="line"></span><br><span class="line">```python</span><br><span class="line">hexo g -d</span><br></pre></td></tr></table></figure></li>
+<li><p>输入以下提示指令，更新GitHub登录账号</p>
+<blockquote>
+<p>git config –global user.eamil “你注册GitHub用的邮箱”</p>
+</blockquote>
+<blockquote>
+<p>git config –gLObal user.namw “你注册GitHub用的名称“”</p>
+</blockquote>
+</li>
+<li><p>输入下面指令进行推送</p>
+</li>
+</ul>
+<blockquote>
+<p>hexo g -d</p>
+</blockquote>
+<ul>
 <li>然后会弹出GitHub登录界面，根据提示填写，填写完之后点<strong>Login</strong>登录，如下图<br><img data-src="https://s1.ax1x.com/2020/10/10/0sAwkj.jpg" alt="8"></li>
 <li>登陆之后，会自动进行推送</li>
 <li>之后就可以使用下图填写内容进行登录</li>
@@ -212,7 +236,7 @@ Hexo+github搭建博客、无需服务器 |
       <i class="ic i-calendar-check"></i>
     </span>
     <span class="text">Edited on</span>
-    <time title="Modified: 2020-10-10 02:49:27" itemprop="dateModified" datetime="2020-10-10T02:49:27+08:00">2020-10-10</time>
+    <time title="Modified: 2020-10-10 03:02:45" itemprop="dateModified" datetime="2020-10-10T03:02:45+08:00">2020-10-10</time>
   </span>
 </div>
 
@@ -267,7 +291,7 @@ Hexo+github搭建博客、无需服务器 |
     <div class="item left">
       
 
-  <a href="/2020/10/09/index1.html/" itemprop="url" rel="prev" data-background-image="https:&#x2F;&#x2F;tva2.sinaimg.cn&#x2F;mw690&#x2F;6833939bly1giph4fomxoj20zk0m8axp.jpg" title="小白式hexo博客编写语法">
+  <a href="/2020/10/09/index1.html/" itemprop="url" rel="prev" data-background-image="https:&#x2F;&#x2F;tva4.sinaimg.cn&#x2F;mw690&#x2F;6833939bly1gipet8c1a2j20zk0m8kct.jpg" title="小白式hexo博客编写语法">
   <span class="type">Previous Post</span>
   <span class="category"><i class="ic i-flag"></i> </span>
   <h3>小白式hexo博客编写语法</h3>
