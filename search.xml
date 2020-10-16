@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>小白式hexo博客编写语法</title>
+    <url>/2020/10/09/index1/</url>
+    <content><![CDATA[<h4 id="Hexo标题语法"><a href="#Hexo标题语法" class="headerlink" title="Hexo标题语法"></a>Hexo标题语法</h4><ul>
+<li>首先是标题语法(在标题前面加上#(星号文字中间需要就一个空格),加几个就是几种字号)</li>
+<li>最多六种字号，下面是演示</li>
+</ul>
+<blockquote>
+<ol>
+<li><h1 id="北遇"><a href="#北遇" class="headerlink" title="北遇"></a>北遇</h1></li>
+<li><h2 id="北遇-1"><a href="#北遇-1" class="headerlink" title="北遇"></a>北遇</h2></li>
+<li><h3 id="北遇-2"><a href="#北遇-2" class="headerlink" title="北遇"></a>北遇</h3></li>
+<li><h4 id="北遇-3"><a href="#北遇-3" class="headerlink" title="北遇"></a>北遇</h4></li>
+<li><h5 id="北遇-4"><a href="#北遇-4" class="headerlink" title="北遇"></a>北遇</h5></li>
+<li><h6 id="北遇-5"><a href="#北遇-5" class="headerlink" title="北遇"></a>北遇</h6></li>
+</ol>
+</blockquote>
+<h4 id="Hexo插入图片语法"><a href="#Hexo插入图片语法" class="headerlink" title="Hexo插入图片语法"></a>Hexo插入图片语法</h4><ul>
+<li>示例: 图片直链接可以百度搜索图床，上传过得图片直链<br><img data-src="https://s1.ax1x.com/2020/10/09/0DJVV1.jpg" alt="插入图片方法"></li>
+<li>演示:<blockquote>
+<p><img data-src="https://s1.ax1x.com/2020/10/09/0DGXbn.png" alt="北遇"></p>
+</blockquote>
+</li>
+</ul>
+<h3 id="字体加粗语法"><a href="#字体加粗语法" class="headerlink" title="字体加粗语法"></a>字体加粗语法</h3><ul>
+<li><p>文字前后加入两个 * (星号)，就可以进行一个加粗语法</p>
+<ul>
+<li><em>基本上没有太大的加粗体现</em></li>
+</ul>
+<p><img data-src="https://s1.ax1x.com/2020/10/09/0DdYIs.jpg" alt="加粗示例图"></p>
+<ul>
+<li>演示:<blockquote>
+<h1 id="北遇-6"><a href="#北遇-6" class="headerlink" title="北遇"></a><strong>北遇</strong></h1></blockquote>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="斜体字语法"><a href="#斜体字语法" class="headerlink" title="斜体字语法"></a>斜体字语法</h3><ul>
+<li><p>在文字前后加个一个 * (星号)，就可以进行一个斜体字语法</p>
+</li>
+<li><p><em>示例图:</em></p>
+</li>
+</ul>
+<p><img data-src="https://s1.ax1x.com/2020/10/09/0D0yCR.jpg" alt="示例图"></p>
+<ul>
+<li>演示:</li>
+</ul>
+<blockquote>
+<h1 id="北遇-7"><a href="#北遇-7" class="headerlink" title="北遇"></a><em>北遇</em></h1></blockquote>
+<ul>
+<li><h2 id="这样最基本的语法就完成了"><a href="#这样最基本的语法就完成了" class="headerlink" title="这样最基本的语法就完成了"></a>这样最基本的语法就完成了</h2></li>
+</ul>
+]]></content>
+  </entry>
+  <entry>
+    <title>Hexo+github搭建博客、无需服务器</title>
+    <url>/2020/10/10/index2/</url>
+    <content><![CDATA[<h3 id="Hexo-github搭建博客、无需服务器"><a href="#Hexo-github搭建博客、无需服务器" class="headerlink" title="Hexo+github搭建博客、无需服务器"></a>Hexo+github搭建博客、无需服务器</h3><h4 id="准备工作，下载需要的软件和github账号"><a href="#准备工作，下载需要的软件和github账号" class="headerlink" title="准备工作，下载需要的软件和github账号"></a><strong>准备工作，下载需要的软件和github账号</strong></h4><h5 id="1-账号注册-账号最好输入英文，因为中文的话，下面搭建好之后，网址可能无法访问"><a href="#1-账号注册-账号最好输入英文，因为中文的话，下面搭建好之后，网址可能无法访问" class="headerlink" title="1.账号注册/账号最好输入英文，因为中文的话，下面搭建好之后，网址可能无法访问"></a><strong>1.</strong><span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tLw==">账号注册</span>/账号最好输入英文，因为中文的话，下面搭建好之后，网址可能无法访问</h5><h5 id="2-Git"><a href="#2-Git" class="headerlink" title="2.  Git"></a><strong>2.</strong>  <span class="exturl" data-url="aHR0cHM6Ly9naXQtc2NtLmNvbS9kb3dubG9hZHM=">Git</span></h5><h5 id="3-node-js"><a href="#3-node-js" class="headerlink" title="3. node.js"></a><strong>3.</strong> <span class="exturl" data-url="aHR0cHM6Ly9ub2RlanMub3JnL2VuL2Rvd25sb2FkLw==">node.js</span></h5><h4 id="下载好之后"><a href="#下载好之后" class="headerlink" title="下载好之后"></a><strong>下载好之后</strong></h4><ul>
+<li>在桌面右击选择” Git bash Here “测试一下有没有安装好文件，按顺序依次输入指令回车</li>
+</ul>
+<blockquote>
+<ol>
+<li>node -v</li>
+<li>npm -v</li>
+<li>git –version</li>
+<li>npm install hexo-cli -g</li>
+</ol>
+</blockquote>
+<h4 id="搭建方法"><a href="#搭建方法" class="headerlink" title="搭建方法"></a>搭建方法</h4><ul>
+<li>在任意磁盘创建一个文件夹命名为 <strong>blog</strong> 或者其他名字也可以，推荐使用blog</li>
+<li>在<strong>blog</strong>文件夹里面右击打开<strong>Git bash Here</strong></li>
+</ul>
+<ol>
+<li><p>之后按顺序输入指令回车</p>
+<blockquote>
+<p>初始化hexo</p>
+<ol>
+<li>hexo init<br>安装依赖文件</li>
+<li>npm install</li>
+<li>hexo s</li>
+</ol>
+</blockquote>
+<ul>
+<li>输入第三个指令之后会出现下图中的” localhost:4000 “<br><img data-src="https://s1.ax1x.com/2020/10/10/0sihtI.png" alt="1"></li>
+<li>这时候给了一个本地访问地址，目前只有你可以访问，想要其他人也能访问<br>就需要上传到<strong>github</strong>，进行一个远端访问</li>
+<li>先Ctrl+c停止本地访问，才能进行下一步<h5 id="创建Github资料库"><a href="#创建Github资料库" class="headerlink" title="创建Github资料库"></a>创建Github资料库</h5></li>
+</ul>
+</li>
+</ol>
+<ul>
+<li><p>如图 点击”New repository “</p>
+</li>
+<li><p>创建资料库<br><img data-src="https://s1.ax1x.com/2020/10/10/0siuwj.png" alt="1"></p>
+</li>
+<li><p>按下面图中提示进行输入， 之后点击 “ cteate repository ” <strong>创建</strong></p>
+</li>
+<li><p>不然无法访问<br><img data-src="https://s1.ax1x.com/2020/10/10/0siTc8.png" alt="2"></p>
+</li>
+<li><p>创建好之后如下图,不要关闭页面<strong>划红线的链接</strong></p>
+</li>
+<li><p>后面还需要用到<br><img data-src="https://s1.ax1x.com/2020/10/10/0sFqxK.png" alt="1"></p>
+</li>
+</ul>
+<h5 id="安装deployer插件"><a href="#安装deployer插件" class="headerlink" title="安装deployer插件"></a>安装deployer插件</h5><ul>
+<li><p>输入指令</p>
+<blockquote>
+<p>npm install hexo-deployer-git –save</p>
+</blockquote>
+<h5 id="修改配置文件"><a href="#修改配置文件" class="headerlink" title="修改配置文件"></a>修改配置文件</h5></li>
+<li><p>复制上面划红线链接 </p>
+</li>
+<li><p>打开你创建的“blog”文件夹，这时候就有几个文件及文件夹</p>
+</li>
+<li><p>我们用编辑器打开下图文件<br><img data-src="https://s1.ax1x.com/2020/10/10/0skJZ4.png" alt="5"></p>
+<ul>
+<li>翻到最下面默认图一是这样的，我们修改成如图二</li>
+</ul>
+</li>
+</ul>
+<p>图一： <img data-src="https://s1.ax1x.com/2020/10/10/0skDsO.png" alt="6"></p>
+<p>图二： <img data-src="https://s1.ax1x.com/2020/10/10/0skcod.png" alt="7"></p>
+<h5 id="推送至Guhub"><a href="#推送至Guhub" class="headerlink" title="推送至Guhub"></a>推送至Guhub</h5><ul>
+<li>输入以下提示指令，更新GitHub登录账号<blockquote>
+<p>git config –global user.eamil “你注册GitHub用的邮箱”</p>
+</blockquote>
+</li>
+</ul>
+<blockquote>
+<p>git config –global user.name “你注册GitHub用的名称”</p>
+</blockquote>
+<ul>
+<li>输入下面指令进行推送</li>
+</ul>
+<blockquote>
+<p>hexo g -d</p>
+</blockquote>
+<ul>
+<li>然后会弹出GitHub登录界面，根据提示填写，填写完之后点<strong>Login</strong>登录，如下图<br><img data-src="https://s1.ax1x.com/2020/10/10/0sAwkj.jpg" alt="8"></li>
+<li>登陆之后，会自动进行推送</li>
+<li>推送成功之后会出现下图红线画出的命令,则表示推送成功<br><img data-src="https://s1.ax1x.com/2020/10/11/0g0gVx.png" alt="99"></li>
+<li>之后就可以使用下图填写内容进行登录<br><img data-src="https://s1.ax1x.com/2020/10/10/0siTc8.png" alt="10"></li>
+</ul>
+<h4 id="关于作者—北遇"><a href="#关于作者—北遇" class="headerlink" title="关于作者—北遇"></a>关于作者—北遇</h4><h4 id="QQ"><a href="#QQ" class="headerlink" title="QQ"></a><span class="exturl" data-url="aHR0cHM6Ly9xbS5xcS5jb20vY2dpLWJpbi9xbS9xcj9rPWoxUkhpY3JOQk5LQjZMTldSaXhjTjFTMWc0cjFBRU5pJm5vdmVyaWZ5PTA=">QQ</span></h4><h4 id="微信"><a href="#微信" class="headerlink" title="微信"></a><span class="exturl" data-url="aHR0cHM6Ly9zMS5heDF4LmNvbS8yMDIwLzEwLzEwLzBzRTlqZi5qcGc=">微信</span></h4><h4 id="微博"><a href="#微博" class="headerlink" title="微博"></a><span class="exturl" data-url="aHR0cHM6Ly93ZWliby5jb20vNzQ1NDUxNjgxOS9wcm9maWxlP3RvcG5hdj0xJnd2cj02">微博</span></h4><h4 id="西瓜视频"><a href="#西瓜视频" class="headerlink" title="西瓜视频"></a><span class="exturl" data-url="aHR0cHM6Ly92Lml4aWd1YS5jb20vSnlDcDg1Ny8=">西瓜视频</span></h4><h4 id="编写不容易，点击下面按钮支持一下！谢谢啦！"><a href="#编写不容易，点击下面按钮支持一下！谢谢啦！" class="headerlink" title="编写不容易，点击下面按钮支持一下！谢谢啦！"></a>编写不容易，点击下面按钮支持一下！谢谢啦！</h4>]]></content>
+      <tags>
+        <tag>文本教程</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>视频文件库</title>
+    <url>/2020/10/11/index3/</url>
+    <content><![CDATA[<h4 id="Hexo➕github搭建"><a href="#Hexo➕github搭建" class="headerlink" title="Hexo➕github搭建"></a>Hexo➕github搭建</h4><ul>
+<li><span class="exturl" data-url="aHR0cHM6Ly93d3cuaXhpZ3VhLmNvbS82ODU5NjI0NzUwNDgyNzE5MjQ1P2xvZ1RhZz1yODZCd2dLVmt0bXpMZlJYV1JObUo=">Hexo➕github搭建博客视频教程链接</span></li>
+<li><span class="exturl" data-url="aHR0cHM6Ly9iZWl5dWd6cy5naXRodWIuaW8vMjAyMC8xMC8xMC9pbmRleDIuaHRtbC5tZC8=">Hexo➕github文本教程</span></li>
+<li><span class="exturl" data-url="aHR0cHM6Ly93d3cubGFuem91aS5jb20vaWpnSjJoY2ZpMGg=">Node.js➕Git程序包</span></li>
+</ul>
+<ol>
+<li><p>最好根据视频来操作：程序包在上方第三个</p>
+</li>
+<li><p>安装中有一处需要注意，在视频中已经注明</p>
+</li>
+</ol>
+]]></content>
+      <tags>
+        <tag>文件/程序</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hexo替换主题的方法(超详细)</title>
+    <url>/2020/10/16/index4/</url>
+    <content><![CDATA[<h4 id="1-准备工作"><a href="#1-准备工作" class="headerlink" title="1.准备工作"></a>1.准备工作</h4><ul>
+<li>自己喜欢的主题<br>1.可以自行到官网选择 <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL3RoZW1lcy8=">Hexo官方主题网</span><br>2.我这里准备了本站<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL2FtZWhpbWUvaGV4by10aGVtZS1zaG9rYQ==">shoka二次元主题</span></li>
+</ul>
+<h4 id="2-下载主题"><a href="#2-下载主题" class="headerlink" title="2.下载主题"></a>2.下载主题</h4><ul>
+<li>找到喜欢的主题打开，一般在博客底部有一个主题信息，然后复制下方图中的主题库代码<h6 id=""><a href="#" class="headerlink" title=""></a><img data-src="https://ftp.bmp.ovh/imgs/2020/10/11fb6aed8cb8a68a.png"></h6><ul>
+<li>在博客文件夹<strong>blog</strong>右击打开<strong>Git bash Here</strong>右击粘贴回车下载</li>
+</ul>
+</li>
+</ul>
+<h4 id="3-替换主题"><a href="#3-替换主题" class="headerlink" title="3.替换主题"></a>3.替换主题</h4><ul>
+<li><p>打开<strong>themes</strong>文件夹，默认没有下载主题如图一只有一个文件夹，图二是下载好的，复制下载好的主题名称</p>
+<h6 id="图一："><a href="#图一：" class="headerlink" title="图一："></a>图一：</h6><p><img data-src="https://ftp.bmp.ovh/imgs/2020/10/b21e2cc099b10e8a.png"></p>
+<h6 id="图二："><a href="#图二：" class="headerlink" title="图二："></a>图二：</h6><p><img data-src="https://ftp.bmp.ovh/imgs/2020/10/a1ec9ea0420d92b5.png"></p>
+</li>
+<li><p>找到<strong>blog</strong>根目录下面的<code>_config.yml</code>文件打开编辑<br><img data-src="https://ftp.bmp.ovh/imgs/2020/10/2373a4838643c12c.png"></p>
+<ol>
+<li>默认如图一还是默认的主题，我们把图二中框起来的修改成你前面复制的主题名称(注意修改的时候<code>:</code>后面有一个空格)<h6 id="图一"><a href="#图一" class="headerlink" title="图一:"></a>图一:</h6><img data-src="https://ftp.bmp.ovh/imgs/2020/10/3fd3d5234be87554.png"><h6 id="图二"><a href="#图二" class="headerlink" title="图二:"></a>图二:</h6><img data-src="https://ftp.bmp.ovh/imgs/2020/10/87592c49342e5358.png"><h4 id="4-更新github仓库"><a href="#4-更新github仓库" class="headerlink" title="4.更新github仓库"></a>4.更新github仓库</h4></li>
+</ol>
+</li>
+<li><p>输入指令更新资料/储存库</p>
+<blockquote>
+<p> hexo g -d</p>
+</blockquote>
+</li>
+<li><p>更新好要一段时间，大概2–3分钟，出现下图红框内容即成功<br><img data-src="https://ftp.bmp.ovh/imgs/2020/10/661fb48d583baa83.png"></p>
+</li>
+</ul>
+<h4 id="关于作者—北遇"><a href="#关于作者—北遇" class="headerlink" title="关于作者—北遇"></a>关于作者—北遇</h4><h4 id="北遇-QQ"><a href="#北遇-QQ" class="headerlink" title="北遇@QQ"></a>北遇<span class="exturl" data-url="aHR0cHM6Ly9xbS5xcS5jb20vY2dpLWJpbi9xbS9xcj9rPWoxUkhpY3JOQk5LQjZMTldSaXhjTjFTMWc0cjFBRU5pJm5vdmVyaWZ5PTA=">@QQ</span></h4><h4 id="北遇-微信"><a href="#北遇-微信" class="headerlink" title="北遇@微信"></a>北遇<span class="exturl" data-url="aHR0cHM6Ly9zMS5heDF4LmNvbS8yMDIwLzEwLzEwLzBzRTlqZi5qcGc=">@微信</span></h4><h4 id="北遇-西瓜视频"><a href="#北遇-西瓜视频" class="headerlink" title="北遇@西瓜视频"></a>北遇<span class="exturl" data-url="aHR0cHM6Ly92Lml4aWd1YS5jb20vSnlDcDg1Ny8=">@西瓜视频</span></h4><h4 id="编写不容易，点击下面按钮支持一下！谢谢啦！"><a href="#编写不容易，点击下面按钮支持一下！谢谢啦！" class="headerlink" title="编写不容易，点击下面按钮支持一下！谢谢啦！"></a>编写不容易，点击下面按钮支持一下！谢谢啦！</h4>]]></content>
+      <tags>
+        <tag>文本教程</tag>
+      </tags>
+  </entry>
+</search>
