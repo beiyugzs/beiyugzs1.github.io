@@ -24,13 +24,15 @@
 <link rel="stylesheet" href="/css/app.css?v=0.2.3">
 
   
+  <meta name="keywords" content="文本教程" />
+
 
 <link rel="canonical" href="http://example.com/2020/10/16/index4/">
 
 
 
   <title>
- |
+Hexo替换主题的方法(超详细) |
 神明博客之家 = </title>
 <meta name="generator" content="Hexo 5.2.0"></head>
 <body itemscope itemtype="http://schema.org/WebPage">
@@ -58,7 +60,7 @@
         <div id="brand">
           <div class="pjax">
           
-  <h1 itemprop="name headline">
+  <h1 itemprop="name headline">Hexo替换主题的方法(超详细)
   </h1>
   
 <div class="meta">
@@ -100,12 +102,12 @@
       </div>
       <div id="imgs" class="pjax">
         <ul>
-          <li class="item" data-background-image="https://tva1.sinaimg.cn/large/6833939bly1gicm0fdw5cj20zk0m8hdt.jpg"></li>
-          <li class="item" data-background-image="https://tva1.sinaimg.cn/large/6833939bly1giclxp31goj20zk0m8qv5.jpg"></li>
-          <li class="item" data-background-image="https://tva1.sinaimg.cn/large/6833939bly1gicitcxhpij20zk0m8hdt.jpg"></li>
-          <li class="item" data-background-image="https://tva1.sinaimg.cn/large/6833939bly1gicli9lfebj20zk0m84qp.jpg"></li>
-          <li class="item" data-background-image="https://tva1.sinaimg.cn/large/6833939bly1gipey0a334j20zk0m8qpt.jpg"></li>
-          <li class="item" data-background-image="https://tva1.sinaimg.cn/large/6833939bly1giciukx8a7j20zk0m8aio.jpg"></li>
+          <li class="item" data-background-image="https://tva3.sinaimg.cn/large/6833939bly1giciryrr3rj20zk0m8nhk.jpg"></li>
+          <li class="item" data-background-image="https://tva3.sinaimg.cn/large/6833939bly1gicliierfjj20zk0m8npd.jpg"></li>
+          <li class="item" data-background-image="https://tva3.sinaimg.cn/large/6833939bly1gicm07ih54j20zk0m84qp.jpg"></li>
+          <li class="item" data-background-image="https://tva3.sinaimg.cn/large/6833939bly1giclgi503lj20zk0m8hdt.jpg"></li>
+          <li class="item" data-background-image="https://tva3.sinaimg.cn/large/6833939bly1gicm0n457cj20zk0m8e81.jpg"></li>
+          <li class="item" data-background-image="https://tva3.sinaimg.cn/large/6833939bly1gicljgocqbj20zk0m8e81.jpg"></li>
         </ul>
       </div>
     </header>
@@ -149,12 +151,49 @@
   <div class="body md" itemprop="articleBody">
     
 
-    
+    <h4 id="1-准备工作"><a href="#1-准备工作" class="headerlink" title="1.准备工作"></a>1.准备工作</h4><ul>
+<li>自己喜欢的主题<br>1.可以自行到官网选择 <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL3RoZW1lcy8=">Hexo官方主题网</span><br>2.我这里准备了本站<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL2FtZWhpbWUvaGV4by10aGVtZS1zaG9rYQ==">shoka二次元主题</span></li>
+</ul>
+<h4 id="2-下载主题"><a href="#2-下载主题" class="headerlink" title="2.下载主题"></a>2.下载主题</h4><ul>
+<li>找到喜欢的主题打开，一般在博客底部有一个主题信息，然后复制下方图中的主题库代码<h6 id=""><a href="#" class="headerlink" title=""></a><img data-src="https://ftp.bmp.ovh/imgs/2020/10/11fb6aed8cb8a68a.png"></h6><ul>
+<li>在博客文件夹<strong>blog</strong>右击打开<strong>Git bash Here</strong>右击粘贴回车下载</li>
+</ul>
+</li>
+</ul>
+<h4 id="3-替换主题"><a href="#3-替换主题" class="headerlink" title="3.替换主题"></a>3.替换主题</h4><ul>
+<li><p>打开<strong>themes</strong>文件夹，默认没有下载主题如图一只有一个文件夹，图二是下载好的，复制下载好的主题名称</p>
+<h6 id="图一："><a href="#图一：" class="headerlink" title="图一："></a>图一：</h6><p><img data-src="https://ftp.bmp.ovh/imgs/2020/10/b21e2cc099b10e8a.png"></p>
+<h6 id="图二："><a href="#图二：" class="headerlink" title="图二："></a>图二：</h6><p><img data-src="https://ftp.bmp.ovh/imgs/2020/10/a1ec9ea0420d92b5.png"></p>
+</li>
+<li><p>找到<strong>blog</strong>根目录下面的<code>_config.yml</code>文件打开编辑<br><img data-src="https://ftp.bmp.ovh/imgs/2020/10/2373a4838643c12c.png"></p>
+<ol>
+<li>默认如图一还是默认的主题，我们把图二中框起来的修改成你前面复制的主题名称(注意修改的时候<code>:</code>后面有一个空格)<h6 id="图一"><a href="#图一" class="headerlink" title="图一:"></a>图一:</h6><img data-src="https://ftp.bmp.ovh/imgs/2020/10/3fd3d5234be87554.png"><h6 id="图二"><a href="#图二" class="headerlink" title="图二:"></a>图二:</h6><img data-src="https://ftp.bmp.ovh/imgs/2020/10/87592c49342e5358.png"><h4 id="4-更新github仓库"><a href="#4-更新github仓库" class="headerlink" title="4.更新github仓库"></a>4.更新github仓库</h4></li>
+</ol>
+</li>
+<li><p>输入指令更新资料/储存库</p>
+<blockquote>
+<p> hexo g -d</p>
+</blockquote>
+</li>
+<li><p>更新好要一段时间，大概2–3分钟，出现下图红框内容即成功<br><img data-src="https://ftp.bmp.ovh/imgs/2020/10/661fb48d583baa83.png"></p>
+</li>
+</ul>
+<h4 id="关于作者—北遇"><a href="#关于作者—北遇" class="headerlink" title="关于作者—北遇"></a>关于作者—北遇</h4><h4 id="北遇-QQ"><a href="#北遇-QQ" class="headerlink" title="北遇@QQ"></a>北遇<span class="exturl" data-url="aHR0cHM6Ly9xbS5xcS5jb20vY2dpLWJpbi9xbS9xcj9rPWoxUkhpY3JOQk5LQjZMTldSaXhjTjFTMWc0cjFBRU5pJm5vdmVyaWZ5PTA=">@QQ</span></h4><h4 id="北遇-微信"><a href="#北遇-微信" class="headerlink" title="北遇@微信"></a>北遇<span class="exturl" data-url="aHR0cHM6Ly9zMS5heDF4LmNvbS8yMDIwLzEwLzEwLzBzRTlqZi5qcGc=">@微信</span></h4><h4 id="北遇-西瓜视频"><a href="#北遇-西瓜视频" class="headerlink" title="北遇@西瓜视频"></a>北遇<span class="exturl" data-url="aHR0cHM6Ly92Lml4aWd1YS5jb20vSnlDcDg1Ny8=">@西瓜视频</span></h4><h4 id="编写不容易，点击下面按钮支持一下！谢谢啦！"><a href="#编写不容易，点击下面按钮支持一下！谢谢啦！" class="headerlink" title="编写不容易，点击下面按钮支持一下！谢谢啦！"></a>编写不容易，点击下面按钮支持一下！谢谢啦！</h4>
+      <div class="tags">
+          <a href="/tags/%E6%96%87%E6%9C%AC%E6%95%99%E7%A8%8B/" rel="tag"><i class="ic i-tag"></i> 文本教程</a>
+      </div>
   </div>
 
    <footer>
 
     <div class="meta">
+  <span class="item">
+    <span class="icon">
+      <i class="ic i-calendar-check"></i>
+    </span>
+    <span class="text">Edited on</span>
+    <time title="Modified: 2020-10-16 15:40:43" itemprop="dateModified" datetime="2020-10-16T15:40:43+08:00">2020-10-16</time>
+  </span>
 </div>
 
       
@@ -189,7 +228,7 @@
   </li>
   <li class="link">
     <strong>Post link: </strong>
-    <a href="http://example.com/2020/10/16/index4/" title="">http://example.com/2020/10/16/index4/</a>
+    <a href="http://example.com/2020/10/16/index4/" title="Hexo替换主题的方法(超详细)">http://example.com/2020/10/16/index4/</a>
   </li>
   <li class="license">
     <strong>Copyright Notice:  </strong>All articles in this blog are licensed under <span class="exturl" data-url="aHR0cHM6Ly9jcmVhdGl2ZWNvbW1vbnMub3JnL2xpY2Vuc2VzL2J5LW5jLXNhLzQuMC9kZWVkLnpo"><i class="ic i-creative-commons"><em>(CC)</em></i>BY-NC-SA</span> unless stating additionally.
@@ -208,7 +247,7 @@
     <div class="item left">
       
 
-  <a href="/2020/10/11/index3/" itemprop="url" rel="prev" data-background-image="https:&#x2F;&#x2F;tva1.sinaimg.cn&#x2F;mw690&#x2F;6833939bly1gipeudstjqj20zk0m8k3r.jpg" title="视频文件库">
+  <a href="/2020/10/11/index3/" itemprop="url" rel="prev" data-background-image="https:&#x2F;&#x2F;tva3.sinaimg.cn&#x2F;mw690&#x2F;6833939bly1gipevo9j1jj20zk0m8e81.jpg" title="视频文件库">
   <span class="type">Previous Post</span>
   <span class="category"><i class="ic i-flag"></i> </span>
   <h3>视频文件库</h3>
@@ -232,6 +271,7 @@
   <div class="panels">
     <div class="inner">
       <div class="contents panel pjax" data-title="Contents">
+          <ol class="toc"><li class="toc-item toc-level-4"><a class="toc-link" href="#1-%E5%87%86%E5%A4%87%E5%B7%A5%E4%BD%9C"><span class="toc-number">1.</span> <span class="toc-text">1.准备工作</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#2-%E4%B8%8B%E8%BD%BD%E4%B8%BB%E9%A2%98"><span class="toc-number">2.</span> <span class="toc-text">2.下载主题</span></a><ol class="toc-child"><li class="toc-item toc-level-6"><a class="toc-link"><span class="toc-number">2.0.1.</span> <span class="toc-text"></span></a></li></ol></li></ol></li><li class="toc-item toc-level-4"><a class="toc-link" href="#3-%E6%9B%BF%E6%8D%A2%E4%B8%BB%E9%A2%98"><span class="toc-number">3.</span> <span class="toc-text">3.替换主题</span></a><ol class="toc-child"><li class="toc-item toc-level-6"><a class="toc-link" href="#%E5%9B%BE%E4%B8%80%EF%BC%9A"><span class="toc-number">3.0.1.</span> <span class="toc-text">图一：</span></a></li><li class="toc-item toc-level-6"><a class="toc-link" href="#%E5%9B%BE%E4%BA%8C%EF%BC%9A"><span class="toc-number">3.0.2.</span> <span class="toc-text">图二：</span></a></li><li class="toc-item toc-level-6"><a class="toc-link" href="#%E5%9B%BE%E4%B8%80"><span class="toc-number">3.0.3.</span> <span class="toc-text">图一:</span></a></li><li class="toc-item toc-level-6"><a class="toc-link" href="#%E5%9B%BE%E4%BA%8C"><span class="toc-number">3.0.4.</span> <span class="toc-text">图二:</span></a></li></ol></li></ol></li><li class="toc-item toc-level-4"><a class="toc-link" href="#4-%E6%9B%B4%E6%96%B0github%E4%BB%93%E5%BA%93"><span class="toc-number">4.</span> <span class="toc-text">4.更新github仓库</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%85%B3%E4%BA%8E%E4%BD%9C%E8%80%85%E2%80%94%E5%8C%97%E9%81%87"><span class="toc-number">5.</span> <span class="toc-text">关于作者—北遇</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%8C%97%E9%81%87-QQ"><span class="toc-number">6.</span> <span class="toc-text">北遇@QQ</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%8C%97%E9%81%87-%E5%BE%AE%E4%BF%A1"><span class="toc-number">7.</span> <span class="toc-text">北遇@微信</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%8C%97%E9%81%87-%E8%A5%BF%E7%93%9C%E8%A7%86%E9%A2%91"><span class="toc-number">8.</span> <span class="toc-text">北遇@西瓜视频</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E7%BC%96%E5%86%99%E4%B8%8D%E5%AE%B9%E6%98%93%EF%BC%8C%E7%82%B9%E5%87%BB%E4%B8%8B%E9%9D%A2%E6%8C%89%E9%92%AE%E6%94%AF%E6%8C%81%E4%B8%80%E4%B8%8B%EF%BC%81%E8%B0%A2%E8%B0%A2%E5%95%A6%EF%BC%81"><span class="toc-number">9.</span> <span class="toc-text">编写不容易，点击下面按钮支持一下！谢谢啦！</span></a></li></ol>
       </div>
       <div class="related panel pjax" data-title="Related">
       </div>
